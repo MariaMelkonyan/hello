@@ -5,12 +5,12 @@
 </head>
 <body>
 <!-- AUA schedule -->
-<ol><h3 style="background color:orange; font-family:Verdana;">CS Courses<h3>
+<ol><h3 style="background-color:orange; font-family:Verdana;">CS Courses<h3>
 <li>Introduction to CS</li>
 <l>Calculus1</li>
 <li>Discrete Mathematics</li>
 </ol>
-<ul><h4 style="background color:yellow; font-family:Verdana, serif;">Other Courses</h4>
+<ul><h4 style="background-color:yellow; font-family:Verdana, serif;">Other Courses</h4>
 <li>Freshman English1</li>
 <li>Introduction to Chemistry</li>
 </ul>
@@ -18,17 +18,21 @@
 <p>This was done by <em>Maria Melkonyan</em></p>
 <!-- I hope this is enough!!! -->
 <a href="http://www.codecademy.com" Programming.com </a>
+<div id="result"></div>
 </body>
 </html>
 
 <script>
 console.log((88+11)*2/33);
-const w = 'credits'
+const w = 'credits';
 console.log((48-15)/11+w);
 console.log(191*2 <= 390);
-const s = 'Science'
-const _ = 'to'
-const t5 = 'Introduduction'
-const _p_ = 'Computer'
-console.log(t5+_+_p_+s)
+const s = 'Science';
+const _ = 'to';
+const y5 = 'Introduction';
+const _p_ = 'Computer';
+var result = y5+_+_p_+s; 
+console.log(result);
+
+document.getElementById("result").innerHTML = "Result: " + result;
 </script>
